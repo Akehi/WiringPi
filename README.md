@@ -1,3 +1,24 @@
+This is modified version !!
+===========================
+
+This is modified version of "Unofficial WiringPi Mirror" for RPi4 + Ubuntu Server 18.04.
+Clone the branch "for_rpi_ubuntu18" and sudo ./build.
+Then it works for me but I can't ensure safe operation.
+I just conbined and did below operations without understanding WiringPi program.
+Good luck for ROS/ROS2 user.
+
+1. Apply eaon patch to WiringPi 2.50
+WiringPi2.50 for ubuntu19 package is available.
+Patch files are supplied here.
+ wget http://archive.ubuntu.com/ubuntu/pool/universe/w/wiringpi/wiringpi_2.50-0ubuntu1.debian.tar.xz
+with applying this patch to original source, WiringPi works on ubuntu18 + RPi1-3
+
+2. Merge Wiring2.60 and 2.50-patched
+WiringPi2.50 is not available on RPi4 because BCMxxx is deferent from other RPi.
+WiringPi2.60 is available on RPi4.
+with merging Wiring2.60 and 2.50-patched , WiringPi works on ubuntu18 + RPi4
+
+
 Unofficial WiringPi Mirror
 ==========================
 
