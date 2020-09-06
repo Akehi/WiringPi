@@ -2,7 +2,8 @@ This is modified version !!
 ===========================
 
 This is modified version of "Unofficial WiringPi Mirror" for RPi4 + Ubuntu Server 18.04.
-It seems to work for me but I can't ensure safe operation.
+Clone the branch "for_rpi_ubuntu18" and sudo ./build.
+Then it works for me but I can't ensure safe operation.
 I just conbined and did below operations without understanding WiringPi program.
 Good luck for ROS/ROS2 user.
 
